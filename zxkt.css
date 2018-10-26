@@ -1,0 +1,130 @@
+.page-zxkt {
+  color: #333;
+}
+
+/*1*/
+.banner1 {
+  width: 100%;
+  height:356px;
+  padding-top: 100px;
+  background: #06002a; 
+}
+.banner1-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.banner1-wrap h2 {
+  font-size: 42px;
+  color: #dbc377;
+  margin-bottom: 78px;
+}
+.banner1-wrap img {
+  height:254px;
+}
+
+/*2*/
+.banner2-ul li {
+  width: 240px;
+  text-align: center;
+}
+.banner2-ul li h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.banner2-qrcode {
+  height: 118px;
+  margin-top: 40px;
+}
+.banner2-qrcode img {
+  width: 118px;
+  height: 118px;
+  margin-right: 10px;
+}
+.banner2-qrcode p {
+  width: 300px;
+  padding-left: 30px;
+  border-left: 1px solid #666; 
+  font-size: 17px;
+}
+.banner2-qrcode p span {
+  color: #e88715;
+}
+
+/*3*/
+.banner3-ul li {
+  width: 278px;
+  margin: 0 11px 20px;
+  background: #fff;
+}
+.banner3-ul li .show {
+  width: 278px;
+  height: 190px;
+}
+.banner3-ifo {
+  min-height: 100px;
+  margin: 10px 20px 20px;
+}
+.banner3-ul li .banner3-ifo-p {
+  line-height: 20px;
+  font-size: 12px;
+}
+.banner3-ul li .banner3-ifo-p label {
+  width: 42px;
+}
+.banner3-ul li .banner3-qrcode {
+  height: 75px;
+  margin: 10px 20px 20px;
+}
+.banner3-ul li .banner3-qrcode img {
+  width: 75px;
+  height: 75px;
+}
+.banner3-ul li .banner3-qrcode .banner3-qrcode-p {
+  margin-left: 30px;
+}
+.banner3-qrcode-p-red {
+  font-weight: bold;
+  color: #e88715;
+}
+.banner3-qrcode-p-grey {
+  color: #797576;
+}
+
+/*6*/
+.banner6 {
+  width: 100%;
+  background: #09003c;
+}
+.banner6-img {
+  width: 540px;
+}
+.banner6-img .banner6-img-p {
+  color: #f2d383;
+}
+.banner6-txt {
+  color: #f2d383;
+}
+.banner6-txt h2 {
+  line-height: 60px;
+}
+
+/*7*/
+.banner7-block img,.banner8-block img {
+  width: 580px;
+  height: auto;
+}
+.banner7-header {
+  width: 574px;
+  padding: 10px 0;
+  border: 3px solid #cecece;
+}
+.banner7-header p,.banner8-header h5 {
+  color: #727171;
+}
+
+/*9*/
+.banner9-block-1 p {
+  margin-top: 6px;
+  padding-top: 10px;
+  border-top: 1px dotted #e88715;
+}
