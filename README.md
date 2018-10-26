@@ -66,6 +66,7 @@
   box-align: start;
 }
 
+/*垂直对齐--拉伸子代的高度，与父级设置的高度一致*/
 .ui-block-align-s2 {
   -webkit-box-align: stretch;
   -moz-box-align: stretch;
@@ -84,6 +85,14 @@
   box-flex: 1;
 }
 
+.ui-block-w-2 {
+  -webkit-box-flex: 100px;
+  -moz-box-flex: 100px;;
+  -ms-box-flex: 100px;;
+  -o-box-flex: 100px;;
+  box-flex: 100px;;
+}
+
 
 /*display: flex;*/
 .ui-flex {
@@ -92,6 +101,32 @@
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+}
+
+/*不换行*/
+.ui-flex-wrap {
+  -webkit-flex-wrap: normal;
+  -moz-flex-wrap: normal;
+  -ms-flex-wrap: normal;
+  -o-flex-wrap: normal;
+  flex-wrap: normal;
+}
+/*换行，第一行在上方*/
+.ui-flex-wrap {
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/*换行，第一行在下方*/
+.ui-flex-wrap {
+  -webkit-flex-wrap: wrap-reverse;
+  -moz-flex-wrap: wrap-reverse;
+  -ms-flex-wrap: wrap-reverse;
+  -o-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 /*水平对齐*/
@@ -155,7 +190,7 @@
   -o-align-items: center;
   align-items: center;
 }
-/*垂直对齐--子元素中心点对齐*/
+/*垂直对齐--子元素第一行文字的基线对齐*/
 .ui-flex-align-b {
   -webkit-align-items: baseline;
   -moz-align-items: baseline;
@@ -163,7 +198,7 @@
   -o-align-items: baseline;
   align-items: baseline;
 }
-/*垂直对齐--拉伸对齐*/
+/*垂直对齐--拉伸占满整个容器的高度*/
 .ui-flex-align-s2 {
   -webkit-align-items: stretch;
   -moz-align-items: stretch;
@@ -194,6 +229,7 @@
   -o-align-content: center;
   align-content: center;
 }
+/* 多行垂直对齐--与交叉轴的两端对齐，轴线之间的间隔平均分布*/
 .ui-flex-align2-b {
   -webkit-align-content: space-between;
   -moz-align-content: space-between;
@@ -201,6 +237,7 @@
   -o-align-content: space-between;
   align-content: space-between;
 }
+/* 多行垂直对齐--每根轴线两侧的间隔相等，即轴线之间的间隔比轴线与边框的间隔大一倍*/
 .ui-flex-align2-a {
   -webkit-align-content: space-around;
   -moz-align-content: space-around;
@@ -208,6 +245,7 @@
   -o-align-content: space-around;
   align-content: space-around;
 }
+/* 多行垂直对齐--轴线占满整个交叉轴*/
 .ui-flex-align2-s2 {
   -webkit-align-content: stretch;
   -moz-align-content: stretch;
@@ -216,16 +254,6 @@
   align-content: stretch;
 }
 
-/*换行*/
-.ui-flex-wrap {
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  -o-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-
 .ui-flex-1 {
   -webkit-flex-basis: 1;
   -moz-flex-basis: 1;
@@ -233,6 +261,15 @@
   -o-flex-basis: 1;
   flex-basis: 1;
 }
+.ui-flex-2 {
+  -webkit-flex-basis: 50px;
+  -moz-flex-basis: 50px;
+  -ms-flex-basis: 50px;
+  -o-flex-basis: 50px;
+  flex-basis: 50px;
+}
+
+
 
 /*html*/
 <!DOCTYPE html>
